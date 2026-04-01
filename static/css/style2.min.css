@@ -1,4 +1,4 @@
-﻿.move-touch {
+.move-touch {
 	-webkit-overflow-scrolling: touch
 }
 
@@ -422,23 +422,30 @@ html {
 
 .container .bann {
 	width: 100%;
-	background-color: transparent;
-	border-radius: .1rem;
-	box-shadow: none;
-	float: left
+	background-color: transparent !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	float: left;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0)
 }
 
 .container .bann ul {
-	width: 100%
+	width: 100%;
+	background-color: transparent !important
 }
 
 .container .bann ul li {
-	width: 100%
+	width: 100%;
+	background-color: transparent !important
 }
 
 .container .bann ul li img {
 	width: 100%;
-	border-radius: .1rem
+	border-radius: 0 !important;
+	background-color: transparent !important;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0)
 }
 
 .container .bann .swiper-pagination {
